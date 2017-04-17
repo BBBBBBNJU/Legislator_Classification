@@ -5,7 +5,7 @@ We have two folders here: `separate` and `together`.
 `together` folder contains that experiment results that we consider Congress 
 people's Congressional Record and Press Releases as two virtual people. For 
 example, Alice's Congressional Record and Press Releases are actually Alice1 
-and Alice2. Then we run one bootstrap experiments with both Alice1 and Alice2.
+and Alice2. Then we run one bootstrap experiment with both Alice1 and Alice2.
 
 `separate` folder is different. We run two bootstrap experiments with Congressional 
 Record and Press Releases, respectively.
