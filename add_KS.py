@@ -35,7 +35,7 @@ for eachData in allData:
         if key in tempname:
             tempScore = value
             break
-    newVec = eachData + [tempScore]
+    newVec = ['"' + tempname + '"'] + eachData[1:None] + [tempScore]
     newFile.write(','.join(newVec) + '\n')
 
 newFile.close()
